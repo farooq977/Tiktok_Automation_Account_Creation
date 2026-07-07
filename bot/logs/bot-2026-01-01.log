@@ -1,0 +1,322 @@
+[2026-01-01T17:17:10.903Z] [INFO] Processing new job
+{
+  "accountId": 1,
+  "batchId": 1,
+  "jobId": "1"
+}
+[2026-01-01T17:17:10.905Z] [INFO] Starting account creation for Account ID: 1 (Attempt 1/3)
+[2026-01-01T17:17:12.083Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 1,
+  "error": "Request failed with status code 403",
+  "stack": "AxiosError: Request failed with status code 403\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at BrotliDecompress.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at BrotliDecompress.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:9:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:42:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T17:17:12.086Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-01T17:17:21.496Z] [INFO] Starting account creation for Account ID: 1 (Attempt 2/3)
+[2026-01-01T17:17:21.501Z] [INFO] Browser closed
+[2026-01-01T17:17:23.338Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 1,
+  "error": "Request failed with status code 403",
+  "stack": "AxiosError: Request failed with status code 403\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at BrotliDecompress.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at BrotliDecompress.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:9:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:42:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T17:17:23.340Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-01T17:17:30.395Z] [INFO] Starting account creation for Account ID: 1 (Attempt 3/3)
+[2026-01-01T17:17:30.400Z] [INFO] Browser closed
+[2026-01-01T17:17:30.819Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 1,
+  "error": "Request failed with status code 403",
+  "stack": "AxiosError: Request failed with status code 403\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at BrotliDecompress.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at BrotliDecompress.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:9:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:42:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T17:17:30.821Z] [INFO] Browser closed
+[2026-01-01T17:17:30.825Z] [SUCCESS] Batch 1 completed!
+{
+  "totalSuccess": 0,
+  "totalFailed": 1
+}
+[2026-01-01T17:17:30.826Z] [INFO] Waiting 7.65 minutes before next account creation...
+[2026-01-01T17:25:09.770Z] [SUCCESS] Job 1 completed
+{
+  "result": {
+    "success": false,
+    "accountId": 1,
+    "error": "Request failed with status code 403"
+  }
+}
+[2026-01-01T17:25:09.771Z] [INFO] Processing new job
+{
+  "accountId": 2,
+  "batchId": 2,
+  "jobId": "2"
+}
+[2026-01-01T17:25:09.771Z] [INFO] Starting account creation for Account ID: 2 (Attempt 1/3)
+[2026-01-01T17:25:10.154Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 2,
+  "error": "Request failed with status code 403",
+  "stack": "AxiosError: Request failed with status code 403\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at BrotliDecompress.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at BrotliDecompress.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:9:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:42:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T17:25:10.157Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-01T17:25:17.799Z] [INFO] Starting account creation for Account ID: 2 (Attempt 2/3)
+[2026-01-01T17:25:17.803Z] [INFO] Browser closed
+[2026-01-01T17:25:18.226Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 2,
+  "error": "Request failed with status code 403",
+  "stack": "AxiosError: Request failed with status code 403\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at BrotliDecompress.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at BrotliDecompress.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:9:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:42:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T17:25:18.228Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-01T17:25:23.258Z] [INFO] Starting account creation for Account ID: 2 (Attempt 3/3)
+[2026-01-01T17:25:23.262Z] [INFO] Browser closed
+[2026-01-01T17:25:23.640Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 2,
+  "error": "Request failed with status code 403",
+  "stack": "AxiosError: Request failed with status code 403\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at BrotliDecompress.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at BrotliDecompress.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:9:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:42:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T17:25:23.642Z] [INFO] Browser closed
+[2026-01-01T17:25:23.645Z] [INFO] Waiting 5.05 minutes before next account creation...
+[2026-01-01T19:20:08.597Z] [INFO] Processing new job
+{
+  "accountId": 3,
+  "batchId": 2,
+  "jobId": "3"
+}
+[2026-01-01T19:20:08.598Z] [INFO] Starting account creation for Account ID: 3 (Attempt 1/3)
+[2026-01-01T19:20:08.601Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:20:11.281Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:20:24.004Z] [INFO] Looking for email signup option...
+[2026-01-01T19:20:25.451Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:20:28.768Z] [INFO] Filling date of birth...
+[2026-01-01T19:23:57.996Z] [INFO] Filling email address...
+[2026-01-01T19:24:00.096Z] [INFO] Filling password...
+[2026-01-01T19:24:02.923Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 3,
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "stack": "page.evaluate: Target page, context or browser has been closed\n    at randomScroll (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/humanBehavior.js:49:16)\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:235:15)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T19:24:02.925Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-01T19:24:08.769Z] [INFO] Starting account creation for Account ID: 3 (Attempt 2/3)
+[2026-01-01T19:24:08.771Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:24:08.773Z] [INFO] Browser closed
+[2026-01-01T19:24:09.129Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:24:24.206Z] [INFO] Looking for email signup option...
+[2026-01-01T19:24:26.429Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:24:28.733Z] [INFO] Filling date of birth...
+[2026-01-01T19:26:01.188Z] [INFO] Processing new job
+{
+  "accountId": 2,
+  "batchId": 2,
+  "jobId": "2"
+}
+[2026-01-01T19:26:01.189Z] [INFO] Starting account creation for Account ID: 2 (Attempt 1/3)
+[2026-01-01T19:26:01.192Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:26:06.553Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:26:17.483Z] [INFO] Looking for email signup option...
+[2026-01-01T19:26:19.547Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:26:21.995Z] [INFO] Filling date of birth...
+[2026-01-01T19:27:09.926Z] [INFO] Filling email address...
+[2026-01-01T19:27:11.779Z] [INFO] Filling password...
+[2026-01-01T19:27:15.559Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 2,
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "stack": "page.evaluate: Target page, context or browser has been closed\n    at randomScroll (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/humanBehavior.js:49:16)\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:235:15)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T19:27:15.562Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-01T19:27:20.617Z] [INFO] Starting account creation for Account ID: 2 (Attempt 2/3)
+[2026-01-01T19:27:20.620Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:27:21.507Z] [INFO] Browser closed
+[2026-01-01T19:27:21.715Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:27:32.582Z] [INFO] Looking for email signup option...
+[2026-01-01T19:27:34.339Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:27:37.636Z] [INFO] Filling date of birth...
+[2026-01-01T19:31:13.350Z] [INFO] Processing new job
+{
+  "accountId": 3,
+  "batchId": 2,
+  "jobId": "3"
+}
+[2026-01-01T19:31:13.352Z] [INFO] Starting account creation for Account ID: 3 (Attempt 1/3)
+[2026-01-01T19:31:13.355Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:31:14.200Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:31:26.675Z] [INFO] Looking for email signup option...
+[2026-01-01T19:31:28.421Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:31:32.391Z] [INFO] Screenshot saved: step-1-initial-page
+[2026-01-01T19:31:32.391Z] [INFO] Filling date of birth...
+[2026-01-01T19:31:38.735Z] [INFO] ❌ Month selector failed: select[name="month"]
+[2026-01-01T19:31:43.349Z] [ERROR] Job 2 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-01T19:31:43.738Z] [INFO] ❌ Month selector failed: select#month
+[2026-01-01T19:31:48.741Z] [INFO] ❌ Month selector failed: [data-e2e="birthday-month"]
+[2026-01-01T19:31:53.744Z] [INFO] ❌ Month selector failed: select:has-text("Month")
+[2026-01-01T19:31:58.747Z] [INFO] ❌ Month selector failed: select[aria-label*="month" i]
+[2026-01-01T19:31:58.748Z] [WARNING] ⚠️  No month selector found - TikTok might have changed the signup flow
+[2026-01-01T19:31:58.884Z] [INFO] Found 1 select elements on page
+[2026-01-01T19:32:04.880Z] [INFO] ❌ Day selector failed: select[name="day"]
+[2026-01-01T19:32:09.882Z] [INFO] ❌ Day selector failed: select#day
+[2026-01-01T19:32:14.885Z] [INFO] ❌ Day selector failed: [data-e2e="birthday-day"]
+[2026-01-01T19:32:19.888Z] [INFO] ❌ Day selector failed: select:has-text("Day")
+[2026-01-01T19:32:24.892Z] [INFO] ❌ Day selector failed: select[aria-label*="day" i]
+[2026-01-01T19:32:30.907Z] [INFO] ❌ Year selector failed: select[name="year"]
+[2026-01-01T19:32:35.910Z] [INFO] ❌ Year selector failed: select#year
+[2026-01-01T19:32:40.913Z] [INFO] ❌ Year selector failed: [data-e2e="birthday-year"]
+[2026-01-01T19:32:45.915Z] [INFO] ❌ Year selector failed: select:has-text("Year")
+[2026-01-01T19:32:50.918Z] [INFO] ❌ Year selector failed: select[aria-label*="year" i]
+[2026-01-01T19:32:52.160Z] [INFO] Filling email address...
+[2026-01-01T19:38:44.398Z] [INFO] Processing new job
+{
+  "accountId": 4,
+  "batchId": 2,
+  "jobId": "4"
+}
+[2026-01-01T19:38:44.399Z] [INFO] Starting account creation for Account ID: 4 (Attempt 1/3)
+[2026-01-01T19:38:44.402Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:38:45.360Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:38:57.759Z] [INFO] Looking for email signup option...
+[2026-01-01T19:38:59.467Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:39:02.174Z] [INFO] Filling date of birth...
+[2026-01-01T19:39:14.398Z] [ERROR] Job 3 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-01T19:39:19.614Z] [INFO] Trying separate month/day/year input fields...
+[2026-01-01T19:39:19.626Z] [INFO] Found 2 input fields on page
+[2026-01-01T19:39:19.627Z] [INFO] Trying select dropdowns (old method)...
+[2026-01-01T19:39:19.631Z] [WARNING] ⚠️  Could not find any date input method  - skipping DOB
+[2026-01-01T19:39:21.080Z] [INFO] Filling email address...
+[2026-01-01T19:40:59.166Z] [INFO] Filling password...
+[2026-01-01T19:41:01.643Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 4,
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "stack": "page.evaluate: Target page, context or browser has been closed\n    at randomScroll (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/humanBehavior.js:49:16)\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:293:15)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T19:41:01.645Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-01T19:41:10.042Z] [INFO] Starting account creation for Account ID: 4 (Attempt 2/3)
+[2026-01-01T19:41:10.045Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:41:10.299Z] [INFO] Browser closed
+[2026-01-01T19:41:10.947Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:41:23.083Z] [INFO] Looking for email signup option...
+[2026-01-01T19:41:25.450Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:41:29.286Z] [INFO] Filling date of birth...
+[2026-01-01T19:41:46.621Z] [INFO] Trying separate month/day/year input fields...
+[2026-01-01T19:41:46.632Z] [INFO] Found 2 input fields on page
+[2026-01-01T19:41:46.632Z] [INFO] Trying select dropdowns (old method)...
+[2026-01-01T19:41:46.637Z] [WARNING] ⚠️  Could not find any date input method  - skipping DOB
+[2026-01-01T19:41:47.923Z] [INFO] Filling email address...
+[2026-01-01T19:46:30.506Z] [INFO] Processing new job
+{
+  "accountId": 5,
+  "batchId": 2,
+  "jobId": "5"
+}
+[2026-01-01T19:46:30.507Z] [INFO] Starting account creation for Account ID: 5 (Attempt 1/3)
+[2026-01-01T19:46:30.512Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:46:31.486Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:46:46.842Z] [INFO] Looking for email signup option...
+[2026-01-01T19:46:48.469Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:46:50.600Z] [INFO] 🎂 Filling date of birth...
+[2026-01-01T19:46:52.610Z] [INFO] Strategy 1: Looking for date picker trigger elements...
+[2026-01-01T19:46:52.667Z] [INFO] ✅ Clicked date picker trigger
+[2026-01-01T19:46:54.375Z] [INFO] Strategy 2: Trying visible input fields...
+[2026-01-01T19:46:54.387Z] [INFO] Found 2 total input elements
+[2026-01-01T19:46:54.411Z] [INFO] Found 0 date-related input fields
+[2026-01-01T19:46:54.411Z] [INFO] Strategy 4: Trying select dropdowns...
+[2026-01-01T19:46:54.415Z] [INFO] Found 1 select elements
+[2026-01-01T19:46:54.416Z] [WARNING] ⚠️  All DOB strategies failed - continuing without DOB
+[2026-01-01T19:46:55.442Z] [INFO] Filling email address...
+[2026-01-01T19:47:53.780Z] [SUCCESS] Entered email: tiktok.automation+tiktok58dwghk9cymjvuvmy3@gmail.com
+[2026-01-01T19:47:55.374Z] [INFO] Filling password...
+[2026-01-01T19:47:58.577Z] [SUCCESS] Entered password
+[2026-01-01T19:48:05.174Z] [INFO] Clicking submit button...
+[2026-01-01T19:49:10.146Z] [INFO] Waiting for verification code page...
+[2026-01-01T19:49:15.149Z] [INFO] Retrieving verification code from email...
+[2026-01-01T19:49:25.152Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 5,
+  "error": "Email verification requires manual intervention. Please use a paid temp email service like temp-mail.org API or configure Gmail API access.",
+  "stack": "Error: Email verification requires manual intervention. Please use a paid temp email service like temp-mail.org API or configure Gmail API access.\n    at getVerificationCode (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:59:15)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:399:34)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T19:49:25.154Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-01T19:49:33.854Z] [INFO] Starting account creation for Account ID: 5 (Attempt 2/3)
+[2026-01-01T19:49:33.857Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:49:34.401Z] [INFO] Browser closed
+[2026-01-01T19:49:34.905Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:49:49.327Z] [INFO] Looking for email signup option...
+[2026-01-01T19:49:51.672Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:49:54.872Z] [INFO] 🎂 Filling date of birth...
+[2026-01-01T19:49:56.606Z] [INFO] Strategy 1: Looking for date picker trigger elements...
+[2026-01-01T19:49:56.659Z] [INFO] ✅ Clicked date picker trigger
+[2026-01-01T19:49:58.018Z] [INFO] Strategy 2: Trying visible input fields...
+[2026-01-01T19:49:58.029Z] [INFO] Found 4 total input elements
+[2026-01-01T19:49:58.063Z] [INFO] Found 1 date-related input fields
+[2026-01-01T19:49:58.063Z] [INFO] Strategy 3: Aggressive - trying first 3 visible inputs...
+[2026-01-01T19:50:00.265Z] [SUCCESS] ✅ Filled using aggressive method
+[2026-01-01T19:50:01.405Z] [INFO] Filling email address...
+[2026-01-01T19:50:55.981Z] [INFO] Filling password...
+[2026-01-01T19:50:58.683Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 5,
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "stack": "page.evaluate: Target page, context or browser has been closed\n    at randomScroll (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/humanBehavior.js:49:16)\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:336:15)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T19:50:58.685Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-01T19:51:06.449Z] [INFO] Starting account creation for Account ID: 5 (Attempt 3/3)
+[2026-01-01T19:51:06.452Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T19:51:07.224Z] [INFO] Browser closed
+[2026-01-01T19:51:07.388Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T19:51:19.532Z] [INFO] Looking for email signup option...
+[2026-01-01T19:51:21.995Z] [SUCCESS] Clicked email signup button
+[2026-01-01T19:51:24.404Z] [INFO] 🎂 Filling date of birth...
+[2026-01-01T19:51:26.706Z] [INFO] Strategy 1: Looking for date picker trigger elements...
+[2026-01-01T19:51:26.743Z] [INFO] ✅ Clicked date picker trigger
+[2026-01-01T19:51:28.059Z] [INFO] Strategy 2: Trying visible input fields...
+[2026-01-01T19:51:28.067Z] [INFO] Found 2 total input elements
+[2026-01-01T19:51:28.083Z] [INFO] Found 0 date-related input fields
+[2026-01-01T19:51:28.083Z] [INFO] Strategy 4: Trying select dropdowns...
+[2026-01-01T19:51:28.087Z] [INFO] Found 1 select elements
+[2026-01-01T19:51:28.087Z] [WARNING] ⚠️  All DOB strategies failed - continuing without DOB
+[2026-01-01T19:51:29.686Z] [INFO] Filling email address...
+[2026-01-01T19:52:15.758Z] [SUCCESS] Entered email: tiktok.automation+tiktoke4wlw2xpslmjvv1jv6@gmail.com
+[2026-01-01T19:52:17.575Z] [INFO] Filling password...
+[2026-01-01T19:52:20.234Z] [SUCCESS] Entered password
+[2026-01-01T19:52:26.312Z] [INFO] Clicking submit button...
+[2026-01-01T19:53:05.061Z] [INFO] Waiting for verification code page...
+[2026-01-01T19:53:10.064Z] [INFO] Retrieving verification code from email...
+[2026-01-01T19:53:20.065Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 5,
+  "error": "Email verification requires manual intervention. Please use a paid temp email service like temp-mail.org API or configure Gmail API access.",
+  "stack": "Error: Email verification requires manual intervention. Please use a paid temp email service like temp-mail.org API or configure Gmail API access.\n    at getVerificationCode (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:59:15)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:399:34)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-01T19:53:20.633Z] [INFO] Browser closed
+[2026-01-01T19:53:20.636Z] [INFO] Waiting 8.33 minutes before next account creation...
+[2026-01-01T20:01:40.140Z] [SUCCESS] Job 5 completed
+{
+  "result": {
+    "success": false,
+    "accountId": 5,
+    "error": "Email verification requires manual intervention. Please use a paid temp email service like temp-mail.org API or configure Gmail API access."
+  }
+}
+[2026-01-01T20:01:40.142Z] [INFO] Processing new job
+{
+  "accountId": 4,
+  "batchId": 2,
+  "jobId": "4"
+}
+[2026-01-01T20:01:40.142Z] [INFO] Starting account creation for Account ID: 4 (Attempt 1/3)
+[2026-01-01T20:01:40.144Z] [INFO] Launching browser with stealth configuration...
+[2026-01-01T20:01:41.401Z] [INFO] Navigating to https://www.tiktok.com/signup...
+[2026-01-01T20:01:57.582Z] [INFO] Looking for email signup option...
+[2026-01-01T20:01:57.585Z] [WARNING] Email signup button not found - proceeding anyway
+[2026-01-01T20:02:00.052Z] [INFO] 🎂 Filling date of birth...
+[2026-01-01T20:02:02.184Z] [INFO] Strategy 1: Looking for date picker trigger elements...
+[2026-01-01T20:02:02.187Z] [INFO] Strategy 2: Trying visible input fields...
+[2026-01-01T20:02:02.188Z] [ERROR] ❌ DOB section error:
+"page.$$: Target page, context or browser has been closed"

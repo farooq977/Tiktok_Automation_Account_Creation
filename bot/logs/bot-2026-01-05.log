@@ -1,0 +1,653 @@
+[2026-01-05T11:29:52.228Z] [INFO] Processing new job
+{
+  "accountId": 19,
+  "batchId": 3,
+  "jobId": "19"
+}
+[2026-01-05T11:29:52.229Z] [INFO] Starting account creation for Account ID: 19 (Attempt 1/3)
+[2026-01-05T11:29:53.126Z] [INFO] Generated Email: tiktokw0qgcb21@airsworld.net
+[2026-01-05T11:29:53.140Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T11:29:53.140Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T11:29:56.421Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:57809
+[2026-01-05T11:29:56.836Z] [INFO] Attached to existing page
+[2026-01-05T11:29:56.837Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T11:29:59.818Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T11:29:59.819Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T11:30:00.712Z] [SUCCESS] ✅ Selected month: 03
+[2026-01-05T11:30:01.802Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T11:30:02.709Z] [SUCCESS] ✅ Selected day: 23
+[2026-01-05T11:30:04.612Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T11:30:05.886Z] [SUCCESS] ✅ Selected year: 2008
+[2026-01-05T11:30:05.886Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T11:30:07.287Z] [INFO] Filling email address...
+[2026-01-05T11:30:11.637Z] [SUCCESS] Entered email: tiktokw0qgcb21@airsworld.net
+[2026-01-05T11:30:14.435Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T11:30:15.561Z] [INFO] Filling password...
+[2026-01-05T11:30:18.525Z] [SUCCESS] Entered password
+[2026-01-05T11:30:20.892Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T11:30:22.000Z] [WARNING] Send code button might be disabled
+[2026-01-05T11:30:22.760Z] [SUCCESS] ✅ Clicked "Send code" button
+[2026-01-05T11:30:24.700Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T11:51:03.666Z] [INFO] Processing new job
+{
+  "accountId": 20,
+  "batchId": 3,
+  "jobId": "20"
+}
+[2026-01-05T11:51:03.667Z] [INFO] Starting account creation for Account ID: 20 (Attempt 1/3)
+[2026-01-05T11:51:05.033Z] [INFO] Generated Email: tiktokchrgch0p@airsworld.net
+[2026-01-05T11:51:05.038Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T11:51:05.039Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T11:51:07.282Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:58245
+[2026-01-05T11:51:07.926Z] [INFO] Attached to existing page
+[2026-01-05T11:51:07.927Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T11:51:11.499Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T11:51:11.499Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T11:51:12.592Z] [SUCCESS] ✅ Selected month: 10
+[2026-01-05T11:51:14.257Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T11:51:15.155Z] [SUCCESS] ✅ Selected day: 18
+[2026-01-05T11:51:17.090Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T11:51:18.023Z] [SUCCESS] ✅ Selected year: 2003
+[2026-01-05T11:51:18.023Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T11:51:19.517Z] [INFO] Filling email address...
+[2026-01-05T11:51:24.338Z] [SUCCESS] Entered email: tiktokchrgch0p@airsworld.net
+[2026-01-05T11:51:26.029Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T11:51:28.023Z] [INFO] Filling password...
+[2026-01-05T11:51:31.169Z] [SUCCESS] Entered password
+[2026-01-05T11:51:33.495Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T11:51:33.667Z] [ERROR] Job 19 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T11:51:34.943Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T11:51:37.564Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T11:51:39.784Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T11:51:39.784Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T11:56:49.876Z] [INFO] Processing new job
+{
+  "accountId": 21,
+  "batchId": 3,
+  "jobId": "21"
+}
+[2026-01-05T11:56:49.877Z] [INFO] Starting account creation for Account ID: 21 (Attempt 1/3)
+[2026-01-05T11:56:51.017Z] [INFO] Generated Email: tiktok3o8n05na@airsworld.net
+[2026-01-05T11:56:51.020Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T11:56:51.021Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T11:56:53.264Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:58456
+[2026-01-05T11:57:08.006Z] [INFO] Attached to existing page
+[2026-01-05T11:57:08.007Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T11:57:10.255Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T11:57:10.256Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T11:57:17.326Z] [SUCCESS] ✅ Selected month: 01
+[2026-01-05T11:57:18.965Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T11:57:19.861Z] [SUCCESS] ✅ Selected day: 06
+[2026-01-05T11:57:20.969Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T11:57:22.153Z] [SUCCESS] ✅ Selected year: 1978
+[2026-01-05T11:57:22.153Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T11:57:24.121Z] [INFO] Filling email address...
+[2026-01-05T11:57:29.641Z] [SUCCESS] Entered email: tiktok3o8n05na@airsworld.net
+[2026-01-05T11:57:31.285Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T11:57:32.967Z] [INFO] Filling password...
+[2026-01-05T11:57:36.346Z] [SUCCESS] Entered password
+[2026-01-05T11:57:38.402Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T11:57:40.349Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T11:57:43.076Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T11:57:45.703Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T11:57:45.704Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T11:57:49.874Z] [ERROR] Job 20 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T12:05:52.498Z] [INFO] Processing new job
+{
+  "accountId": 12,
+  "batchId": 3,
+  "jobId": "12"
+}
+[2026-01-05T12:05:52.499Z] [INFO] Starting account creation for Account ID: 12 (Attempt 1/3)
+[2026-01-05T12:05:56.526Z] [INFO] Generated Email: tiktokp4pnctez@airsworld.net
+[2026-01-05T12:05:56.530Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:05:56.530Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:05:58.821Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:58953
+[2026-01-05T12:05:59.306Z] [INFO] Attached to existing page
+[2026-01-05T12:05:59.307Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T12:06:02.292Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T12:06:02.292Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T12:06:04.061Z] [SUCCESS] ✅ Selected month: 09
+[2026-01-05T12:06:06.007Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T12:06:07.050Z] [SUCCESS] ✅ Selected day: 13
+[2026-01-05T12:06:09.033Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T12:06:09.896Z] [SUCCESS] ✅ Selected year: 1981
+[2026-01-05T12:06:09.896Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T12:06:11.510Z] [INFO] Filling email address...
+[2026-01-05T12:06:16.047Z] [SUCCESS] Entered email: tiktokp4pnctez@airsworld.net
+[2026-01-05T12:06:17.852Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T12:06:19.522Z] [INFO] Filling password...
+[2026-01-05T12:06:22.472Z] [SUCCESS] Entered password
+[2026-01-05T12:06:24.856Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T12:06:26.710Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T12:06:29.729Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T12:06:32.709Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T12:06:32.709Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T12:10:25.483Z] [INFO] Processing new job
+{
+  "accountId": 21,
+  "batchId": 3,
+  "jobId": "21"
+}
+[2026-01-05T12:10:25.484Z] [INFO] Starting account creation for Account ID: 21 (Attempt 1/3)
+[2026-01-05T12:10:27.369Z] [INFO] Generated Email: tiktokg04myrqg@airsworld.net
+[2026-01-05T12:10:27.372Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:10:27.373Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:10:29.585Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:59117
+[2026-01-05T12:10:30.129Z] [INFO] Attached to existing page
+[2026-01-05T12:10:30.129Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T12:10:33.612Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T12:10:33.612Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T12:10:36.638Z] [SUCCESS] ✅ Selected month: 01
+[2026-01-05T12:10:37.958Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T12:10:38.973Z] [SUCCESS] ✅ Selected day: 18
+[2026-01-05T12:10:40.885Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T12:10:41.719Z] [SUCCESS] ✅ Selected year: 1988
+[2026-01-05T12:10:41.720Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T12:10:43.040Z] [INFO] Filling email address...
+[2026-01-05T12:10:47.182Z] [SUCCESS] Entered email: tiktokg04myrqg@airsworld.net
+[2026-01-05T12:10:49.639Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T12:10:51.021Z] [INFO] Filling password...
+[2026-01-05T12:10:53.312Z] [SUCCESS] Entered password
+[2026-01-05T12:10:55.764Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T12:10:57.344Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T12:11:00.741Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T12:11:03.265Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T12:11:03.265Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T12:11:14.792Z] [INFO] ✅ Got Code: 554716
+[2026-01-05T12:11:14.793Z] [INFO] Entering verification code...
+[2026-01-05T12:11:23.822Z] [SUCCESS] ✅ Entered verification code successfully
+[2026-01-05T12:11:24.854Z] [INFO] Clicking submit/next button...
+[2026-01-05T12:11:24.895Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T12:11:28.040Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T12:11:32.754Z] [INFO] Waiting for account creation to complete...
+[2026-01-05T12:11:42.991Z] [SUCCESS] Account created successfully! Account ID: 21
+{
+  "email": "tiktokg04myrqg@airsworld.net",
+  "tiktokUserId": null
+}
+[2026-01-05T12:11:43.105Z] [INFO] Killing Python browser process...
+[2026-01-05T12:11:43.105Z] [INFO] Browser closed
+[2026-01-05T12:11:43.156Z] [INFO] Waiting 9.51 minutes before next account creation...
+[2026-01-05T12:34:10.653Z] [INFO] Processing new job
+{
+  "accountId": 12,
+  "batchId": 3,
+  "jobId": "12"
+}
+[2026-01-05T12:34:10.654Z] [INFO] Starting account creation for Account ID: 12 (Attempt 1/3)
+[2026-01-05T12:34:13.080Z] [INFO] Generated Email: tiktoknyeefvvw@airsworld.net
+[2026-01-05T12:34:13.084Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:34:13.085Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:34:13.086Z] [INFO] 🔌 Connecting with proxy: socks5://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:34:15.842Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:60230
+[2026-01-05T12:34:35.967Z] [INFO] Attached to existing page
+[2026-01-05T12:34:35.968Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:34:40.653Z] [ERROR] Job 21 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T12:35:05.974Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 12,
+  "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "stack": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:126:24)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:35:05.977Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:35:23.692Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-05T12:35:30.176Z] [INFO] Starting account creation for Account ID: 12 (Attempt 2/3)
+[2026-01-05T12:35:30.184Z] [INFO] Killing Python browser process...
+[2026-01-05T12:35:30.184Z] [INFO] Browser closed
+[2026-01-05T12:35:31.605Z] [INFO] Generated Email: tiktokcqlztt2v@airsworld.net
+[2026-01-05T12:35:31.606Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:35:31.607Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:35:31.607Z] [INFO] 🔌 Connecting with proxy: socks5://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:35:34.374Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:60584
+[2026-01-05T12:35:45.124Z] [INFO] Created new page
+[2026-01-05T12:35:45.125Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:35:45.627Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 12,
+  "error": "page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://www.tiktok.com/signup/phone-or-email/email\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "stack": "page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://www.tiktok.com/signup/phone-or-email/email\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:126:24)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:35:45.630Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:37:56.674Z] [INFO] Processing new job
+{
+  "accountId": 13,
+  "batchId": 3,
+  "jobId": "13"
+}
+[2026-01-05T12:37:56.675Z] [INFO] Starting account creation for Account ID: 13 (Attempt 1/3)
+[2026-01-05T12:37:58.456Z] [INFO] Generated Email: tiktokgg7dosox@airsworld.net
+[2026-01-05T12:37:58.460Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:37:58.460Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:37:58.461Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:38:01.079Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:60767
+[2026-01-05T12:38:21.677Z] [INFO] Attached to existing page
+[2026-01-05T12:38:21.677Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:38:26.677Z] [ERROR] Job 12 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T12:44:28.600Z] [INFO] Processing new job
+{
+  "accountId": 14,
+  "batchId": 3,
+  "jobId": "14"
+}
+[2026-01-05T12:44:28.602Z] [INFO] Starting account creation for Account ID: 14 (Attempt 1/3)
+[2026-01-05T12:44:30.953Z] [INFO] Generated Email: tiktok60xwtmxt@airsworld.net
+[2026-01-05T12:44:30.958Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:44:30.958Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:44:30.959Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:45:00.963Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 14,
+  "error": "Timeout waiting for Python browser launcher",
+  "stack": "Error: Timeout waiting for Python browser launcher\n    at Timeout._onTimeout (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:65:35)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+}
+[2026-01-05T12:45:00.966Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:45:00.967Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-05T12:45:09.623Z] [INFO] Starting account creation for Account ID: 14 (Attempt 2/3)
+[2026-01-05T12:45:09.629Z] [INFO] Browser closed
+[2026-01-05T12:45:23.369Z] [INFO] Generated Email: tiktokehb9e5wy@airsworld.net
+[2026-01-05T12:45:23.372Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:45:23.372Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:45:23.373Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:45:53.375Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 14,
+  "error": "Timeout waiting for Python browser launcher",
+  "stack": "Error: Timeout waiting for Python browser launcher\n    at Timeout._onTimeout (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:65:35)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+}
+[2026-01-05T12:45:53.377Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:45:53.377Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-05T12:46:02.148Z] [INFO] Starting account creation for Account ID: 14 (Attempt 3/3)
+[2026-01-05T12:46:02.152Z] [INFO] Browser closed
+[2026-01-05T12:46:06.375Z] [INFO] Generated Email: tiktokr7p9ntkd@airsworld.net
+[2026-01-05T12:46:06.376Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:46:06.377Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:46:06.377Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:46:08.753Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:61115/devtools/browser/b7c74052-968a-4eda-9426-5abec022565f
+[2026-01-05T12:46:08.817Z] [INFO] Attached to existing page
+[2026-01-05T12:46:08.817Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:46:09.786Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 14,
+  "error": "page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://www.tiktok.com/signup/phone-or-email/email\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "stack": "page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://www.tiktok.com/signup/phone-or-email/email\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:126:24)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:46:09.788Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:49:59.601Z] [INFO] Processing new job
+{
+  "accountId": 13,
+  "batchId": 3,
+  "jobId": "13"
+}
+[2026-01-05T12:49:59.602Z] [INFO] Starting account creation for Account ID: 13 (Attempt 1/3)
+[2026-01-05T12:50:02.932Z] [INFO] Generated Email: tiktokko7lno31@airsworld.net
+[2026-01-05T12:50:02.935Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:50:02.936Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:50:02.936Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:50:04.920Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/85c48018-9b6d-49ad-8df1-c8cbf8ab8fda
+[2026-01-05T12:50:04.997Z] [INFO] Attached to existing page
+[2026-01-05T12:50:04.997Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:50:08.112Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T12:50:10.408Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T12:50:10.409Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T12:50:12.264Z] [SUCCESS] ✅ Selected month: 12
+[2026-01-05T12:50:13.786Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T12:50:14.931Z] [SUCCESS] ✅ Selected day: 25
+[2026-01-05T12:50:15.943Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T12:50:17.234Z] [SUCCESS] ✅ Selected year: 2000
+[2026-01-05T12:50:17.234Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T12:50:18.324Z] [INFO] Filling email address...
+[2026-01-05T12:50:24.250Z] [SUCCESS] Entered email: tiktokko7lno31@airsworld.net
+[2026-01-05T12:50:27.155Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T12:50:28.948Z] [INFO] Filling password...
+[2026-01-05T12:50:31.953Z] [SUCCESS] Entered password
+[2026-01-05T12:50:34.505Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T12:50:36.188Z] [WARNING] Click attempt 1 failed: page.evaluate: Target page, context or browser has been closed
+[2026-01-05T12:50:36.189Z] [WARNING] Click attempt 2 failed: page.evaluate: Target page, context or browser has been closed
+[2026-01-05T12:50:36.190Z] [WARNING] Click attempt 3 failed: page.evaluate: Target page, context or browser has been closed
+[2026-01-05T12:50:36.191Z] [WARNING] Click attempt 4 failed: page.evaluate: Target page, context or browser has been closed
+[2026-01-05T12:50:36.192Z] [WARNING] Click attempt 5 failed: page.evaluate: Target page, context or browser has been closed
+[2026-01-05T12:50:36.192Z] [ERROR] ❌ Could not verify "Send Code" click. Trying JS click...
+[2026-01-05T12:50:36.193Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 13,
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "stack": "page.evaluate: Target page, context or browser has been closed\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:294:24)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:50:36.196Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:50:36.197Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-05T12:50:46.523Z] [INFO] Processing new job
+{
+  "accountId": 14,
+  "batchId": 3,
+  "jobId": "14"
+}
+[2026-01-05T12:50:46.524Z] [INFO] Starting account creation for Account ID: 14 (Attempt 1/3)
+[2026-01-05T12:50:47.988Z] [INFO] Generated Email: tiktok3m37owy5@airsworld.net
+[2026-01-05T12:50:47.992Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:50:47.993Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:50:47.993Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:50:49.961Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/6489655b-a388-45ca-bcc5-0d288ae24f93
+[2026-01-05T12:50:50.034Z] [INFO] Attached to existing page
+[2026-01-05T12:50:50.034Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:50:51.737Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T12:50:55.611Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T12:50:55.612Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T12:50:56.799Z] [SUCCESS] ✅ Selected month: 09
+[2026-01-05T12:50:58.187Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T12:51:00.038Z] [SUCCESS] ✅ Selected day: 24
+[2026-01-05T12:51:01.734Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T12:51:02.941Z] [SUCCESS] ✅ Selected year: 1994
+[2026-01-05T12:51:02.941Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T12:51:04.575Z] [INFO] Filling email address...
+[2026-01-05T12:51:04.577Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 14,
+  "error": "page.$: Target page, context or browser has been closed",
+  "stack": "page.$: Target page, context or browser has been closed\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:194:28)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:51:04.579Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:51:04.580Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-05T12:51:11.827Z] [INFO] Starting account creation for Account ID: 14 (Attempt 2/3)
+[2026-01-05T12:51:11.834Z] [INFO] Killing Python browser process...
+[2026-01-05T12:51:11.835Z] [INFO] Browser closed
+[2026-01-05T12:51:13.588Z] [INFO] Generated Email: tiktokgwzlb2xi@airsworld.net
+[2026-01-05T12:51:13.590Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:51:13.591Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:51:13.591Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:51:15.518Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/ab7b9325-bf95-4c89-a736-d444cb461a30
+[2026-01-05T12:51:15.556Z] [INFO] Attached to existing page
+[2026-01-05T12:51:15.556Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:51:16.707Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 14,
+  "error": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "stack": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:126:24)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:51:16.709Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:51:16.709Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-05T12:54:12.973Z] [INFO] Processing new job
+{
+  "accountId": 15,
+  "batchId": 3,
+  "jobId": "15"
+}
+[2026-01-05T12:54:12.974Z] [INFO] Starting account creation for Account ID: 15 (Attempt 1/3)
+[2026-01-05T12:54:15.759Z] [INFO] Generated Email: tiktokcw3cjmd1@airsworld.net
+[2026-01-05T12:54:15.763Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:54:15.763Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:54:15.763Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:54:17.709Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/b4894c62-7296-4489-8380-d2a5f25c37e9
+[2026-01-05T12:54:17.778Z] [INFO] Attached to existing page
+[2026-01-05T12:54:17.822Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:54:19.858Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T12:54:22.724Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T12:54:22.724Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T12:54:24.117Z] [SUCCESS] ✅ Selected month: 10
+[2026-01-05T12:54:25.892Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T12:54:27.008Z] [SUCCESS] ✅ Selected day: 06
+[2026-01-05T12:54:28.981Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T12:54:29.831Z] [SUCCESS] ✅ Selected year: 1985
+[2026-01-05T12:54:29.831Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T12:54:31.219Z] [INFO] Filling email address...
+[2026-01-05T12:54:35.636Z] [SUCCESS] Entered email: tiktokcw3cjmd1@airsworld.net
+[2026-01-05T12:54:37.947Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T12:54:37.950Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 15,
+  "error": "mouse.click: Target page, context or browser has been closed",
+  "stack": "mouse.click: Target page, context or browser has been closed\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:213:26)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-05T12:54:37.952Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T12:54:37.952Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-05T12:57:04.642Z] [ERROR] Job 13 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T12:57:04.642Z] [ERROR] Job 14 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T12:57:04.645Z] [INFO] Processing new job
+{
+  "accountId": 16,
+  "batchId": 3,
+  "jobId": "16"
+}
+[2026-01-05T12:57:04.646Z] [INFO] Starting account creation for Account ID: 16 (Attempt 1/3)
+[2026-01-05T12:57:06.435Z] [INFO] Generated Email: tiktok43ogrshy@airsworld.net
+[2026-01-05T12:57:06.439Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T12:57:06.439Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T12:57:06.440Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T12:57:08.367Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/1e67877d-7ccc-4e94-9de6-5141046e8fee
+[2026-01-05T12:57:08.437Z] [INFO] Attached to existing page
+[2026-01-05T12:57:08.483Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T12:57:11.743Z] [INFO] ⏳ Waiting for page to fully load...
+[2026-01-05T12:57:35.464Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T12:57:37.907Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T12:57:37.908Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T12:57:38.868Z] [SUCCESS] ✅ Selected month: 02
+[2026-01-05T12:57:40.178Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T12:57:41.235Z] [SUCCESS] ✅ Selected day: 05
+[2026-01-05T12:57:42.584Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T12:57:43.416Z] [SUCCESS] ✅ Selected year: 2005
+[2026-01-05T12:57:43.417Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T12:57:44.933Z] [INFO] Filling email address...
+[2026-01-05T12:57:49.133Z] [SUCCESS] Entered email: tiktok43ogrshy@airsworld.net
+[2026-01-05T12:57:51.564Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T12:57:52.943Z] [INFO] Filling password...
+[2026-01-05T12:57:56.479Z] [SUCCESS] Entered password
+[2026-01-05T12:57:59.368Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T12:58:01.759Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T12:58:04.823Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T12:58:07.148Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T12:58:07.148Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T12:58:13.280Z] [INFO] ✅ Got Code: 204263
+[2026-01-05T12:58:13.281Z] [INFO] Entering verification code...
+[2026-01-05T12:58:21.919Z] [SUCCESS] ✅ Entered verification code successfully
+[2026-01-05T12:58:23.727Z] [INFO] Clicking submit/next button...
+[2026-01-05T12:58:23.802Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T12:58:27.589Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T12:58:31.497Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T12:58:36.490Z] [INFO] Waiting for account creation to complete...
+[2026-01-05T12:58:46.656Z] [SUCCESS] Account created successfully! Account ID: 16
+{
+  "email": "tiktok43ogrshy@airsworld.net",
+  "tiktokUserId": null
+}
+[2026-01-05T12:58:46.676Z] [INFO] Killing Python browser process...
+[2026-01-05T12:58:46.676Z] [INFO] Browser closed
+[2026-01-05T12:58:46.680Z] [INFO] Waiting 7.77 minutes before next account creation...
+[2026-01-05T13:06:32.607Z] [SUCCESS] Job 16 completed
+{
+  "result": {
+    "success": true,
+    "email": "tiktok43ogrshy@airsworld.net",
+    "password": "pYtn3#cb7esgq"
+  }
+}
+[2026-01-05T13:06:32.608Z] [INFO] Processing new job
+{
+  "accountId": 15,
+  "batchId": 3,
+  "jobId": "15"
+}
+[2026-01-05T13:06:32.608Z] [INFO] Starting account creation for Account ID: 15 (Attempt 1/3)
+[2026-01-05T13:06:34.746Z] [INFO] Generated Email: tiktok1dpjk2td@airsworld.net
+[2026-01-05T13:06:34.749Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T13:06:34.749Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T13:06:34.749Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T13:06:36.838Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/4fa4f41b-62e8-4646-b0f2-d377c733ae66
+[2026-01-05T13:06:36.863Z] [INFO] Attached to existing page
+[2026-01-05T13:06:36.909Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T13:06:39.270Z] [INFO] ⏳ Waiting for page to fully load...
+[2026-01-05T13:17:40.977Z] [ERROR] Job 15 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T13:23:29.560Z] [INFO] 🔧 [DEV] Queue empty. Injecting Test Job...
+[2026-01-05T13:23:29.609Z] [SUCCESS] ✅ [DEV] Injected New Job: Account 22 (Batch 4)
+[2026-01-05T13:23:29.614Z] [INFO] Processing new job
+{
+  "accountId": 22,
+  "batchId": 4,
+  "jobId": "22"
+}
+[2026-01-05T13:23:29.616Z] [INFO] Starting account creation for Account ID: 22 (Attempt 1/3)
+[2026-01-05T13:23:38.908Z] [INFO] Generated Email: tiktok9f5kzjfb@airsworld.net
+[2026-01-05T13:23:38.911Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T13:23:38.912Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T13:23:38.912Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T13:23:41.156Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/9eab6a56-3253-40ef-8e4b-62c91a0f7444
+[2026-01-05T13:23:41.244Z] [INFO] Attached to existing page
+[2026-01-05T13:23:41.287Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T13:23:51.960Z] [INFO] 🌍 Checking public IP...
+[2026-01-05T13:23:51.971Z] [INFO] ✅ Current IP displayed in Browser: Unknown
+[2026-01-05T13:23:51.971Z] [INFO] ⏳ Waiting for page to fully load...
+[2026-01-05T13:24:15.471Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T13:24:18.593Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T13:24:18.593Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T13:24:22.294Z] [SUCCESS] ✅ Selected month: 07
+[2026-01-05T13:24:23.347Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T13:24:24.109Z] [SUCCESS] ✅ Selected day: 18
+[2026-01-05T13:24:26.102Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T13:24:26.959Z] [SUCCESS] ✅ Selected year: 1998
+[2026-01-05T13:24:26.960Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T13:24:28.526Z] [INFO] Filling email address...
+[2026-01-05T13:24:33.471Z] [SUCCESS] Entered email: tiktok9f5kzjfb@airsworld.net
+[2026-01-05T13:24:35.534Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T13:24:36.767Z] [INFO] Filling password...
+[2026-01-05T13:24:39.295Z] [SUCCESS] Entered password
+[2026-01-05T13:24:41.420Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T13:24:43.733Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T13:24:46.321Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T13:24:48.547Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T13:24:48.548Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T13:24:58.457Z] [INFO] ✅ Got Code: 522934
+[2026-01-05T13:24:58.458Z] [INFO] Entering verification code...
+[2026-01-05T13:25:06.610Z] [SUCCESS] ✅ Entered verification code successfully
+[2026-01-05T13:25:08.463Z] [INFO] Clicking submit/next button...
+[2026-01-05T13:25:08.503Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T13:25:11.880Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T13:25:14.904Z] [INFO] Waiting for account creation to complete...
+[2026-01-05T13:25:25.099Z] [SUCCESS] Account created successfully! Account ID: 22
+{
+  "email": "tiktok9f5kzjfb@airsworld.net",
+  "tiktokUserId": null
+}
+[2026-01-05T13:25:25.122Z] [INFO] Killing Python browser process...
+[2026-01-05T13:25:25.123Z] [INFO] Browser closed
+[2026-01-05T13:25:25.126Z] [SUCCESS] Batch 4 completed!
+{
+  "totalSuccess": 1,
+  "totalFailed": 0
+}
+[2026-01-05T13:25:25.127Z] [INFO] Waiting 8.69 minutes before next account creation...
+[2026-01-05T13:37:57.504Z] [ERROR] Queue error
+{
+  "error": "Missing lock for job 22 failed"
+}
+[2026-01-05T13:38:28.720Z] [INFO] Processing new job
+{
+  "accountId": 22,
+  "batchId": 4,
+  "jobId": "22"
+}
+[2026-01-05T13:38:28.721Z] [INFO] Starting account creation for Account ID: 22 (Attempt 1/3)
+[2026-01-05T13:38:30.643Z] [INFO] Generated Email: tiktok9v44vk2r@airsworld.net
+[2026-01-05T13:38:30.646Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T13:38:30.646Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T13:38:30.647Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T13:38:32.690Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/87aabe1e-3b38-4d2d-9c77-ccba8247a89b
+[2026-01-05T13:38:32.716Z] [INFO] Attached to existing page
+[2026-01-05T13:38:32.759Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T13:38:33.751Z] [INFO] 🌍 Checking public IP...
+[2026-01-05T13:38:33.758Z] [INFO] ✅ Current IP displayed in Browser: Unknown
+[2026-01-05T13:38:33.759Z] [INFO] ⏳ Waiting for page to fully load...
+[2026-01-05T13:45:34.719Z] [INFO] ℹ️ Jobs already in queue, skipping injection.
+[2026-01-05T13:46:04.728Z] [ERROR] Job 22 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-05T13:46:54.312Z] [INFO] 🔧 [DEV] Queue empty. Injecting Test Job...
+[2026-01-05T13:46:54.320Z] [SUCCESS] ✅ [DEV] Injected New Job: Account 23 (Batch 5)
+[2026-01-05T13:46:54.325Z] [INFO] Processing new job
+{
+  "accountId": 23,
+  "batchId": 5,
+  "jobId": "23"
+}
+[2026-01-05T13:46:54.327Z] [INFO] Starting account creation for Account ID: 23 (Attempt 1/3)
+[2026-01-05T13:48:14.166Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 23,
+  "error": "connect ETIMEDOUT 49.12.20.211:443",
+  "stack": "Error: connect ETIMEDOUT 49.12.20.211:443\n    at AxiosError.from (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/AxiosError.js:96:14)\n    at RedirectableRequest.handleRequestError (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:817:25)\n    at RedirectableRequest.emit (node:events:524:28)\n    at eventHandlers.<computed> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/node_modules/follow-redirects/index.js:49:24)\n    at ClientRequest.emit (node:events:524:28)\n    at emitErrorEvent (node:_http_client:101:11)\n    at TLSSocket.socketErrorListener (node:_http_client:504:5)\n    at TLSSocket.emit (node:events:524:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:28:33)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:79:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:81:24)"
+}
+[2026-01-05T13:48:14.169Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-05T13:48:14.169Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-05T13:48:20.172Z] [INFO] Starting account creation for Account ID: 23 (Attempt 2/3)
+[2026-01-05T13:48:20.177Z] [INFO] Browser closed
+[2026-01-05T13:48:31.687Z] [INFO] Generated Email: tiktokmk4vtpoo@airsworld.net
+[2026-01-05T13:48:31.690Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T13:48:31.691Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T13:48:31.691Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T13:48:33.892Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/ba25a08e-977c-4e16-ada0-cdacbf5bd2ae
+[2026-01-05T13:48:33.980Z] [INFO] Attached to existing page
+[2026-01-05T13:48:34.027Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T13:52:15.235Z] [INFO] ℹ️ Jobs already in queue, skipping injection.
+[2026-01-05T13:52:45.247Z] [INFO] Processing new job
+{
+  "accountId": 23,
+  "batchId": 5,
+  "jobId": "23"
+}
+[2026-01-05T13:52:45.249Z] [INFO] Starting account creation for Account ID: 23 (Attempt 1/3)
+[2026-01-05T13:52:46.884Z] [INFO] Generated Email: tiktokk9pcvdk0@airsworld.net
+[2026-01-05T13:52:46.888Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-05T13:52:46.889Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-05T13:52:46.889Z] [INFO] 🔌 Connecting with proxy: http://fsynjmig-1:****@p.webshare.io:80
+[2026-01-05T13:52:49.124Z] [INFO] ✅ Connected to CDP Endpoint: ws://127.0.0.1:9222/devtools/browser/2a87f523-bd77-4f2b-a787-2a066e679899
+[2026-01-05T13:52:49.210Z] [INFO] Attached to existing page
+[2026-01-05T13:52:49.261Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-05T13:52:51.616Z] [INFO] 🌍 Checking public IP...
+[2026-01-05T13:52:51.629Z] [INFO] ✅ Current IP displayed in Browser: Unknown
+[2026-01-05T13:52:51.630Z] [INFO] ⏳ Waiting for page to fully load...
+[2026-01-05T13:53:15.956Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-05T13:53:19.771Z] [INFO] 🎂 Filling date of birth...
+[2026-01-05T13:53:19.772Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-05T13:53:20.910Z] [SUCCESS] ✅ Selected month: 06
+[2026-01-05T13:53:22.146Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-05T13:53:22.907Z] [SUCCESS] ✅ Selected day: 04
+[2026-01-05T13:53:23.962Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-05T13:53:25.116Z] [SUCCESS] ✅ Selected year: 2001
+[2026-01-05T13:53:25.117Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-05T13:53:26.383Z] [INFO] Filling email address...
+[2026-01-05T13:53:30.761Z] [SUCCESS] Entered email: tiktokk9pcvdk0@airsworld.net
+[2026-01-05T13:53:32.941Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-05T13:53:34.351Z] [INFO] Filling password...
+[2026-01-05T13:53:37.572Z] [SUCCESS] Entered password
+[2026-01-05T13:53:40.072Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-05T13:53:42.387Z] [INFO] Attempt 1: Clicking Send Code...
+[2026-01-05T13:53:45.425Z] [INFO] Attempt 2: Clicking Send Code...
+[2026-01-05T13:53:47.916Z] [SUCCESS] ✅ Successfully clicked "Send code"
+[2026-01-05T13:53:47.916Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-05T13:53:54.349Z] [INFO] ✅ Got Code: 421650
+[2026-01-05T13:53:54.350Z] [INFO] Entering verification code...
+[2026-01-05T13:54:02.983Z] [SUCCESS] ✅ Entered verification code successfully
+[2026-01-05T13:54:04.959Z] [INFO] Clicking submit/next button...
+[2026-01-05T13:54:05.006Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T13:54:09.506Z] [SUCCESS] ✅ Clicked submit button
+[2026-01-05T13:54:13.367Z] [SUCCESS] ✅ Clicked submit button

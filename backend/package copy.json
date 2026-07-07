@@ -1,0 +1,14 @@
+{
+    "name": "tiktok-automation-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start-server": "cd backend && npm install && npm start",
+        "start-worker": "cd bot && npm install && npm run start-worker",
+        "postinstall": "cd backend && npm install && cd ../bot && npm install"
+    },
+    "engines": {
+        "node": "18.x",
+        "npm": "9.x"
+    }
+}

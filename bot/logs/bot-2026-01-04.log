@@ -1,0 +1,694 @@
+[2026-01-04T13:47:33.747Z] [INFO] Processing new job
+{
+  "accountId": 9,
+  "batchId": 2,
+  "jobId": "9"
+}
+[2026-01-04T13:47:33.750Z] [INFO] Starting account creation for Account ID: 9 (Attempt 1/3)
+[2026-01-04T13:47:33.763Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T13:47:35.231Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T13:48:03.705Z] [ERROR] Job 8 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-04T13:48:10.308Z] [INFO] On direct email signup page - using PRECISE SELECTORS from visual inspection
+[2026-01-04T13:48:12.415Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T13:48:14.755Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T13:48:14.855Z] [SUCCESS] ✅ Clicked Month trigger
+[2026-01-04T13:48:15.669Z] [SUCCESS] ✅ Selected month: August (Index: 7)
+[2026-01-04T13:48:17.133Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T13:48:17.181Z] [SUCCESS] ✅ Clicked Day trigger
+[2026-01-04T13:48:18.307Z] [SUCCESS] ✅ Selected day: 18
+[2026-01-04T13:48:19.774Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T13:48:19.964Z] [SUCCESS] ✅ Clicked Year trigger
+[2026-01-04T13:48:21.142Z] [SUCCESS] ✅ Selected year: 1988
+[2026-01-04T13:48:21.143Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T13:48:23.072Z] [INFO] Filling email address...
+[2026-01-04T13:48:56.553Z] [SUCCESS] Entered email: wixewi3757@icousd.com
+[2026-01-04T13:48:58.422Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T13:48:59.727Z] [INFO] Filling password...
+[2026-01-04T13:49:03.003Z] [SUCCESS] Entered password
+[2026-01-04T13:49:11.337Z] [INFO] Clicking submit button...
+[2026-01-04T13:50:12.148Z] [INFO] Waiting for page update...
+[2026-01-04T13:50:15.171Z] [INFO] 📸 Debug screenshot taken (pre-sendcode)
+[2026-01-04T13:50:15.171Z] [INFO] Looking for "Send code" button...
+[2026-01-04T13:50:15.180Z] [SUCCESS] 👀 Found "Send code" button ([data-e2e="send-code-button"])
+[2026-01-04T13:50:15.775Z] [SUCCESS] ✅ Clicked "Send code" button
+[2026-01-04T13:50:17.562Z] [INFO] Waiting for verification code input...
+[2026-01-04T13:50:22.565Z] [INFO] Retrieving verification code from email...
+[2026-01-04T14:01:56.618Z] [INFO] Processing new job
+{
+  "accountId": 10,
+  "batchId": 2,
+  "jobId": "10"
+}
+[2026-01-04T14:01:56.620Z] [INFO] Starting account creation for Account ID: 10 (Attempt 1/3)
+[2026-01-04T14:01:56.623Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:01:57.694Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:01:58.543Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 10,
+  "error": "page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n",
+  "stack": "page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:116:20)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T14:01:58.547Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-04T14:02:07.247Z] [INFO] Starting account creation for Account ID: 10 (Attempt 2/3)
+[2026-01-04T14:02:07.251Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:02:07.254Z] [INFO] Browser closed
+[2026-01-04T14:02:08.410Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:02:42.550Z] [INFO] On direct email signup page - using PRECISE SELECTORS from visual inspection
+[2026-01-04T14:02:44.808Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T14:02:46.362Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T14:02:46.449Z] [SUCCESS] ✅ Clicked Month trigger
+[2026-01-04T14:02:47.199Z] [SUCCESS] ✅ Selected month: October (Index: 9)
+[2026-01-04T14:02:48.699Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T14:02:48.746Z] [SUCCESS] ✅ Clicked Day trigger
+[2026-01-04T14:02:49.752Z] [SUCCESS] ✅ Selected day: 11
+[2026-01-04T14:02:51.218Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T14:02:51.338Z] [SUCCESS] ✅ Clicked Year trigger
+[2026-01-04T14:02:52.068Z] [SUCCESS] ✅ Selected year: 1991
+[2026-01-04T14:02:52.069Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T14:02:53.691Z] [INFO] Filling email address...
+[2026-01-04T14:03:27.237Z] [SUCCESS] Entered email: wixewi3757@icousd.com
+[2026-01-04T14:03:29.588Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T14:03:31.176Z] [INFO] Filling password...
+[2026-01-04T14:03:34.681Z] [SUCCESS] Entered password
+[2026-01-04T14:03:42.566Z] [INFO] Clicking submit button...
+[2026-01-04T14:04:43.382Z] [INFO] Waiting for page update...
+[2026-01-04T14:04:45.846Z] [INFO] 📸 Debug screenshot taken (pre-sendcode)
+[2026-01-04T14:04:45.846Z] [INFO] Looking for "Send code" button...
+[2026-01-04T14:04:45.855Z] [SUCCESS] 👀 Found "Send code" button ([data-e2e="send-code-button"])
+[2026-01-04T14:04:46.390Z] [SUCCESS] ✅ Clicked "Send code" button
+[2026-01-04T14:04:48.118Z] [INFO] Waiting for verification code input...
+[2026-01-04T14:04:53.120Z] [INFO] Retrieving verification code from email...
+[2026-01-04T14:07:19.190Z] [ERROR] Job 9 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-04T14:07:19.193Z] [INFO] Processing new job
+{
+  "accountId": 11,
+  "batchId": 2,
+  "jobId": "11"
+}
+[2026-01-04T14:07:19.194Z] [INFO] Starting account creation for Account ID: 11 (Attempt 1/3)
+[2026-01-04T14:07:19.194Z] [INFO] waiting for user input...
+[2026-01-04T14:07:32.765Z] [INFO] Using Email: 0ffxt2u45h@wnbaldwy.com
+[2026-01-04T14:07:32.768Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:07:33.672Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:08:31.893Z] [INFO] On direct email signup page - using PRECISE SELECTORS from visual inspection
+[2026-01-04T14:08:34.289Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T14:08:34.290Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T14:08:35.210Z] [SUCCESS] ✅ Selected month: 03
+[2026-01-04T14:08:36.443Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T14:08:37.175Z] [SUCCESS] ✅ Selected day: 11
+[2026-01-04T14:08:38.812Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T14:08:39.968Z] [SUCCESS] ✅ Selected year: 1982
+[2026-01-04T14:08:39.968Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T14:08:41.916Z] [INFO] Filling email address...
+[2026-01-04T14:08:46.626Z] [SUCCESS] Entered email: 0ffxt2u45h@wnbaldwy.com
+[2026-01-04T14:08:48.724Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T14:08:50.213Z] [INFO] Filling password...
+[2026-01-04T14:08:52.871Z] [SUCCESS] Entered password
+[2026-01-04T14:08:54.876Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 11,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:221:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T14:08:54.880Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-04T14:09:01.368Z] [INFO] Starting account creation for Account ID: 11 (Attempt 2/3)
+[2026-01-04T14:09:01.368Z] [INFO] waiting for user input...
+[2026-01-04T14:09:02.022Z] [INFO] Browser closed
+[2026-01-04T14:09:45.872Z] [INFO] Using Email: 09990
+[2026-01-04T14:09:45.875Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:09:46.868Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:10:20.818Z] [INFO] On direct email signup page - using PRECISE SELECTORS from visual inspection
+[2026-01-04T14:10:22.823Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T14:10:22.823Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T14:10:23.940Z] [SUCCESS] ✅ Selected month: 03
+[2026-01-04T14:10:25.382Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T14:10:26.244Z] [SUCCESS] ✅ Selected day: 01
+[2026-01-04T14:10:28.204Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T14:10:29.281Z] [SUCCESS] ✅ Selected year: 1987
+[2026-01-04T14:10:29.281Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T14:10:31.050Z] [INFO] Filling email address...
+[2026-01-04T14:10:32.914Z] [SUCCESS] Entered email: 09990
+[2026-01-04T14:10:35.133Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T14:10:36.295Z] [INFO] Filling password...
+[2026-01-04T14:10:38.888Z] [SUCCESS] Entered password
+[2026-01-04T14:10:40.903Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 11,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:221:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T14:10:40.905Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-04T14:10:48.681Z] [INFO] Starting account creation for Account ID: 11 (Attempt 3/3)
+[2026-01-04T14:10:48.681Z] [INFO] waiting for user input...
+[2026-01-04T14:10:49.290Z] [INFO] Browser closed
+[2026-01-04T14:54:01.298Z] [INFO] Processing new job
+{
+  "accountId": 10,
+  "batchId": 2,
+  "jobId": "10"
+}
+[2026-01-04T14:54:01.299Z] [INFO] Starting account creation for Account ID: 10 (Attempt 1/3)
+[2026-01-04T14:54:05.530Z] [INFO] Generated Email: tiktok5qbqt0px@airsworld.net
+[2026-01-04T14:54:05.534Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:54:06.505Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:54:34.477Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T14:54:37.990Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T14:54:37.991Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T14:54:39.037Z] [SUCCESS] ✅ Selected month: 11
+[2026-01-04T14:54:41.031Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T14:54:42.091Z] [SUCCESS] ✅ Selected day: 10
+[2026-01-04T14:54:43.829Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T14:54:43.891Z] [ERROR] ❌ DOB error:
+"elementHandle.click: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n"
+[2026-01-04T14:54:45.063Z] [INFO] Filling email address...
+[2026-01-04T14:54:47.118Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T14:54:48.695Z] [INFO] Filling password...
+[2026-01-04T14:54:51.241Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 10,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:200:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T14:54:51.244Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-04T14:54:56.493Z] [INFO] Starting account creation for Account ID: 10 (Attempt 2/3)
+[2026-01-04T14:54:57.134Z] [INFO] Browser closed
+[2026-01-04T14:54:57.510Z] [INFO] Generated Email: tiktokp1cmz21l@airsworld.net
+[2026-01-04T14:54:57.513Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:54:58.483Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:55:21.054Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T14:55:23.827Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T14:55:23.827Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T14:55:24.571Z] [SUCCESS] ✅ Selected month: 08
+[2026-01-04T14:55:26.147Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T14:55:26.882Z] [SUCCESS] ✅ Selected day: 16
+[2026-01-04T14:55:28.172Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T14:55:29.253Z] [SUCCESS] ✅ Selected year: 2006
+[2026-01-04T14:55:29.255Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T14:55:31.215Z] [INFO] Filling email address...
+[2026-01-04T14:55:35.292Z] [SUCCESS] Entered email: tiktokp1cmz21l@airsworld.net
+[2026-01-04T14:55:37.567Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T14:55:39.329Z] [INFO] Filling password...
+[2026-01-04T14:55:42.426Z] [SUCCESS] Entered password
+[2026-01-04T14:55:44.996Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 10,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:200:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T14:55:44.998Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-04T14:55:50.045Z] [INFO] Starting account creation for Account ID: 10 (Attempt 3/3)
+[2026-01-04T14:55:50.378Z] [INFO] Browser closed
+[2026-01-04T14:55:53.335Z] [INFO] Generated Email: tiktokhlg2iges@airsworld.net
+[2026-01-04T14:55:53.338Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T14:55:54.301Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T14:56:44.468Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T14:56:48.258Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T14:56:48.258Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T14:56:49.084Z] [SUCCESS] ✅ Selected month: 03
+[2026-01-04T14:56:50.665Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T14:56:51.625Z] [SUCCESS] ✅ Selected day: 28
+[2026-01-04T14:56:52.671Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T14:56:53.638Z] [SUCCESS] ✅ Selected year: 1997
+[2026-01-04T14:56:53.639Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T14:56:55.080Z] [INFO] Filling email address...
+[2026-01-04T14:56:59.858Z] [SUCCESS] Entered email: tiktokhlg2iges@airsworld.net
+[2026-01-04T14:57:01.633Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T14:57:03.115Z] [INFO] Filling password...
+[2026-01-04T14:57:06.650Z] [SUCCESS] Entered password
+[2026-01-04T14:57:08.874Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 10,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:200:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T14:57:09.357Z] [INFO] Browser closed
+[2026-01-04T14:57:09.362Z] [INFO] Waiting 7.57 minutes before next account creation...
+[2026-01-04T15:10:04.874Z] [INFO] Processing new job
+{
+  "accountId": 11,
+  "batchId": 2,
+  "jobId": "11"
+}
+[2026-01-04T15:10:04.876Z] [INFO] Starting account creation for Account ID: 11 (Attempt 1/3)
+[2026-01-04T15:10:09.920Z] [INFO] Generated Email: tiktokw5tcn24c@airsworld.net
+[2026-01-04T15:10:09.924Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:10:10.944Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:10:34.875Z] [ERROR] Job 10 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-04T15:11:10.951Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 11,
+  "error": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n",
+  "stack": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:103:20)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:11:10.953Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-04T15:11:17.486Z] [INFO] Starting account creation for Account ID: 11 (Attempt 2/3)
+[2026-01-04T15:11:19.345Z] [INFO] Generated Email: tiktokvm8ugpqq@airsworld.net
+[2026-01-04T15:11:19.348Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:11:20.326Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:11:29.829Z] [INFO] Browser closed
+[2026-01-04T15:12:20.331Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 11,
+  "error": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n",
+  "stack": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:103:20)"
+}
+[2026-01-04T15:12:20.333Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-04T15:12:29.680Z] [INFO] Starting account creation for Account ID: 11 (Attempt 3/3)
+[2026-01-04T15:12:30.074Z] [INFO] Browser closed
+[2026-01-04T15:12:30.611Z] [INFO] Generated Email: tiktokbkznh4r1@airsworld.net
+[2026-01-04T15:12:30.615Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:12:31.561Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:12:53.214Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:12:55.980Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:12:55.981Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:12:57.165Z] [SUCCESS] ✅ Selected month: 09
+[2026-01-04T15:12:58.468Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T15:12:59.481Z] [SUCCESS] ✅ Selected day: 27
+[2026-01-04T15:13:00.669Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T15:13:01.842Z] [SUCCESS] ✅ Selected year: 1986
+[2026-01-04T15:13:01.842Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T15:13:03.432Z] [INFO] Filling email address...
+[2026-01-04T15:13:08.429Z] [SUCCESS] Entered email: tiktokbkznh4r1@airsworld.net
+[2026-01-04T15:13:10.973Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:13:12.184Z] [INFO] Filling password...
+[2026-01-04T15:13:14.597Z] [SUCCESS] Entered password
+[2026-01-04T15:13:16.791Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 11,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:200:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:13:20.080Z] [INFO] Browser closed
+[2026-01-04T15:13:20.082Z] [INFO] Waiting 7.53 minutes before next account creation...
+[2026-01-04T15:15:59.041Z] [INFO] Processing new job
+{
+  "accountId": 12,
+  "batchId": 3,
+  "jobId": "12"
+}
+[2026-01-04T15:15:59.043Z] [INFO] Starting account creation for Account ID: 12 (Attempt 1/3)
+[2026-01-04T15:16:01.470Z] [INFO] Generated Email: tiktokrh5dkaw1@airsworld.net
+[2026-01-04T15:16:01.476Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:16:02.361Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:16:21.948Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:16:24.704Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:16:24.706Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:16:25.819Z] [SUCCESS] ✅ Selected month: 06
+[2026-01-04T15:16:27.507Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T15:16:28.313Z] [SUCCESS] ✅ Selected day: 17
+[2026-01-04T15:16:29.043Z] [ERROR] Job 11 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-04T15:16:30.158Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T15:16:31.387Z] [SUCCESS] ✅ Selected year: 1997
+[2026-01-04T15:16:31.387Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T15:16:32.882Z] [INFO] Filling email address...
+[2026-01-04T15:16:37.217Z] [SUCCESS] Entered email: tiktokrh5dkaw1@airsworld.net
+[2026-01-04T15:16:40.119Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:16:41.826Z] [INFO] Filling password...
+[2026-01-04T15:16:44.371Z] [SUCCESS] Entered password
+[2026-01-04T15:16:47.347Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 12,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:200:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:16:47.350Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:16:47.904Z] [INFO] Browser closed
+[2026-01-04T15:16:47.905Z] [ERROR] Job processing error
+{
+  "accountId": 12,
+  "batchId": 3,
+  "error": "page is not defined",
+  "stack": "ReferenceError: page is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:352:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:16:47.909Z] [ERROR] Job 12 failed
+{
+  "error": "page is not defined"
+}
+[2026-01-04T15:16:47.911Z] [INFO] Processing new job
+{
+  "accountId": 13,
+  "batchId": 3,
+  "jobId": "13"
+}
+[2026-01-04T15:16:47.911Z] [INFO] Starting account creation for Account ID: 13 (Attempt 1/3)
+[2026-01-04T15:16:48.815Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 13,
+  "error": "Request failed with status code 429",
+  "stack": "AxiosError: Request failed with status code 429\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at IncomingMessage.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:44:32)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:44:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:16:48.817Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:16:48.818Z] [INFO] Browser closed
+[2026-01-04T15:16:48.818Z] [ERROR] Job processing error
+{
+  "accountId": 13,
+  "batchId": 3,
+  "error": "page is not defined",
+  "stack": "ReferenceError: page is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:352:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:16:48.820Z] [ERROR] Job 13 failed
+{
+  "error": "page is not defined"
+}
+[2026-01-04T15:16:48.821Z] [INFO] Processing new job
+{
+  "accountId": 14,
+  "batchId": 3,
+  "jobId": "14"
+}
+[2026-01-04T15:16:48.821Z] [INFO] Starting account creation for Account ID: 14 (Attempt 1/3)
+[2026-01-04T15:16:49.495Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 14,
+  "error": "Request failed with status code 429",
+  "stack": "AxiosError: Request failed with status code 429\n    at settle (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/adapters/http.js:793:11)\n    at IncomingMessage.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async generateEmail (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/services/tempMailService.js:44:32)\n    at async createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:44:23)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:16:49.496Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:16:49.496Z] [INFO] Browser closed
+[2026-01-04T15:16:49.497Z] [ERROR] Job processing error
+{
+  "accountId": 14,
+  "batchId": 3,
+  "error": "page is not defined",
+  "stack": "ReferenceError: page is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:352:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:16:49.498Z] [ERROR] Job 14 failed
+{
+  "error": "page is not defined"
+}
+[2026-01-04T15:16:49.499Z] [INFO] Processing new job
+{
+  "accountId": 15,
+  "batchId": 3,
+  "jobId": "15"
+}
+[2026-01-04T15:16:49.499Z] [INFO] Starting account creation for Account ID: 15 (Attempt 1/3)
+[2026-01-04T15:16:50.210Z] [INFO] Generated Email: tiktokym977ig1@airsworld.net
+[2026-01-04T15:16:50.213Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:16:51.032Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:17:35.736Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 15,
+  "error": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n",
+  "stack": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:103:20)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:17:35.738Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:17:36.190Z] [INFO] Browser closed
+[2026-01-04T15:17:36.190Z] [ERROR] Job processing error
+{
+  "accountId": 15,
+  "batchId": 3,
+  "error": "page is not defined",
+  "stack": "ReferenceError: page is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:352:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:17:36.192Z] [ERROR] Job 15 failed
+{
+  "error": "page is not defined"
+}
+[2026-01-04T15:17:36.192Z] [INFO] Processing new job
+{
+  "accountId": 16,
+  "batchId": 3,
+  "jobId": "16"
+}
+[2026-01-04T15:17:36.193Z] [INFO] Starting account creation for Account ID: 16 (Attempt 1/3)
+[2026-01-04T15:17:37.666Z] [INFO] Generated Email: tiktokdh45h5x9@airsworld.net
+[2026-01-04T15:17:37.668Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:17:38.676Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:17:40.872Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 16,
+  "error": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n",
+  "stack": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:103:20)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:17:40.875Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:17:41.341Z] [INFO] Browser closed
+[2026-01-04T15:17:41.341Z] [ERROR] Job processing error
+{
+  "accountId": 16,
+  "batchId": 3,
+  "error": "page is not defined",
+  "stack": "ReferenceError: page is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:352:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:17:41.342Z] [ERROR] Job 16 failed
+{
+  "error": "page is not defined"
+}
+[2026-01-04T15:17:41.343Z] [INFO] Processing new job
+{
+  "accountId": 17,
+  "batchId": 3,
+  "jobId": "17"
+}
+[2026-01-04T15:17:41.343Z] [INFO] Starting account creation for Account ID: 17 (Attempt 1/3)
+[2026-01-04T15:17:42.599Z] [INFO] Generated Email: tiktokjhlhml1b@airsworld.net
+[2026-01-04T15:17:42.603Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:17:43.611Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:18:25.277Z] [INFO] Processing new job
+{
+  "accountId": 18,
+  "batchId": 3,
+  "jobId": "18"
+}
+[2026-01-04T15:18:25.279Z] [INFO] Starting account creation for Account ID: 18 (Attempt 1/3)
+[2026-01-04T15:18:26.460Z] [INFO] Generated Email: tiktokh7r2hvpo@airsworld.net
+[2026-01-04T15:18:26.464Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:18:27.458Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:19:06.033Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:19:08.218Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:19:08.219Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:19:18.226Z] [ERROR] ❌ DOB error:
+"page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[aria-label*=\"Month\"], div[aria-label*=\"Month\"]') to be visible\u001b[22m\n"
+[2026-01-04T15:19:19.853Z] [INFO] Filling email address...
+[2026-01-04T15:19:22.757Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:19:24.222Z] [INFO] Filling password...
+[2026-01-04T15:19:27.120Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 18,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:201:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:19:27.123Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:20:21.256Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-04T15:20:27.469Z] [INFO] Starting account creation for Account ID: 18 (Attempt 2/3)
+[2026-01-04T15:20:28.058Z] [INFO] Browser closed
+[2026-01-04T15:20:39.784Z] [INFO] Generated Email: tiktokwmdqvfij@airsworld.net
+[2026-01-04T15:20:39.787Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:20:40.810Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:21:40.815Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 18,
+  "error": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n",
+  "stack": "page.goto: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktok.com/signup/phone-or-email/email\", waiting until \"networkidle\"\u001b[22m\n\n    at createTikTokAccount (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:104:20)\n    at async Queue.<anonymous> (/Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:21:40.817Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:22:13.176Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-04T15:22:18.287Z] [INFO] Starting account creation for Account ID: 18 (Attempt 3/3)
+[2026-01-04T15:22:18.807Z] [INFO] Browser closed
+[2026-01-04T15:22:24.661Z] [INFO] Generated Email: tiktokojntdqke@airsworld.net
+[2026-01-04T15:22:24.664Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:22:25.649Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:23:08.365Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:23:10.609Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:23:10.611Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:23:20.615Z] [ERROR] ❌ DOB error:
+"page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[aria-label*=\"Month\"], div[aria-label*=\"Month\"]') to be visible\u001b[22m\n"
+[2026-01-04T15:23:22.424Z] [INFO] Filling email address...
+[2026-01-04T15:23:24.758Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:23:25.875Z] [INFO] Filling password...
+[2026-01-04T15:23:28.740Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 18,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:201:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:23:28.742Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:24:29.197Z] [INFO] Browser closed
+[2026-01-04T15:24:29.200Z] [INFO] Waiting 9.44 minutes before next account creation...
+[2026-01-04T15:25:20.732Z] [INFO] Processing new job
+{
+  "accountId": 17,
+  "batchId": 3,
+  "jobId": "17"
+}
+[2026-01-04T15:25:20.734Z] [INFO] Starting account creation for Account ID: 17 (Attempt 1/3)
+[2026-01-04T15:25:22.808Z] [INFO] Generated Email: tiktokosajinyy@airsworld.net
+[2026-01-04T15:25:22.812Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:25:23.912Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:26:23.830Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:26:26.594Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:26:26.595Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:26:36.602Z] [ERROR] ❌ DOB error:
+"page.waitForSelector: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[aria-label*=\"Month\"], div[aria-label*=\"Month\"]') to be visible\u001b[22m\n"
+[2026-01-04T15:26:38.213Z] [INFO] Filling email address...
+[2026-01-04T15:26:40.687Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:26:42.657Z] [INFO] Filling password...
+[2026-01-04T15:26:45.644Z] [ERROR] Failed to create account (Attempt 1/3)
+{
+  "accountId": 17,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:201:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:26:45.647Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:27:45.651Z] [INFO] Retrying account creation... (Attempt 2/3)
+[2026-01-04T15:27:51.159Z] [INFO] Starting account creation for Account ID: 17 (Attempt 2/3)
+[2026-01-04T15:27:51.786Z] [INFO] Browser closed
+[2026-01-04T15:27:52.152Z] [INFO] Generated Email: tiktokl0tjcw8e@airsworld.net
+[2026-01-04T15:27:52.155Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:27:53.132Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:28:11.890Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:28:15.755Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:28:15.756Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:28:16.480Z] [SUCCESS] ✅ Selected month: 10
+[2026-01-04T15:28:17.836Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T15:28:18.873Z] [SUCCESS] ✅ Selected day: 23
+[2026-01-04T15:28:20.396Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T15:28:21.634Z] [SUCCESS] ✅ Selected year: 2007
+[2026-01-04T15:28:21.634Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T15:28:23.444Z] [INFO] Filling email address...
+[2026-01-04T15:28:27.955Z] [SUCCESS] Entered email: tiktokl0tjcw8e@airsworld.net
+[2026-01-04T15:28:30.747Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:28:32.756Z] [INFO] Filling password...
+[2026-01-04T15:28:35.551Z] [SUCCESS] Entered password
+[2026-01-04T15:28:38.142Z] [ERROR] Failed to create account (Attempt 2/3)
+{
+  "accountId": 17,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:201:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:28:38.144Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:29:38.149Z] [INFO] Retrying account creation... (Attempt 3/3)
+[2026-01-04T15:29:46.901Z] [INFO] Starting account creation for Account ID: 17 (Attempt 3/3)
+[2026-01-04T15:29:47.522Z] [INFO] Browser closed
+[2026-01-04T15:29:47.799Z] [INFO] Generated Email: tiktokc49wexop@airsworld.net
+[2026-01-04T15:29:47.802Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:29:48.797Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:30:14.778Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:30:18.146Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:30:18.147Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:30:19.249Z] [SUCCESS] ✅ Selected month: 10
+[2026-01-04T15:30:20.371Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T15:30:21.249Z] [SUCCESS] ✅ Selected day: 20
+[2026-01-04T15:30:22.912Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T15:30:23.915Z] [SUCCESS] ✅ Selected year: 2001
+[2026-01-04T15:30:23.916Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T15:30:25.036Z] [INFO] Filling email address...
+[2026-01-04T15:30:29.580Z] [SUCCESS] Entered email: tiktokc49wexop@airsworld.net
+[2026-01-04T15:30:31.683Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:30:32.703Z] [INFO] Filling password...
+[2026-01-04T15:30:36.101Z] [SUCCESS] Entered password
+[2026-01-04T15:30:38.165Z] [ERROR] Failed to create account (Attempt 3/3)
+{
+  "accountId": 17,
+  "error": "detectAndSolveCaptcha is not defined",
+  "stack": "ReferenceError: detectAndSolveCaptcha is not defined\n    at createTikTokAccount (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/automation/tiktokSignup.js:201:9)\n    at async Queue.<anonymous> (file:///Users/mac/Desktop/My%20Work/Tiktok_account_automation/bot/src/worker.js:45:24)"
+}
+[2026-01-04T15:30:38.166Z] [INFO] ⚠️ Error occurred. KEEPING BROWSER OPEN for 60 seconds for inspection...
+[2026-01-04T15:31:38.809Z] [INFO] Browser closed
+[2026-01-04T15:31:38.812Z] [INFO] Waiting 8.96 minutes before next account creation...
+[2026-01-04T15:34:37.844Z] [ERROR] Job 17 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-04T15:34:37.847Z] [INFO] Processing new job
+{
+  "accountId": 18,
+  "batchId": 3,
+  "jobId": "18"
+}
+[2026-01-04T15:34:37.848Z] [INFO] Starting account creation for Account ID: 18 (Attempt 1/3)
+[2026-01-04T15:34:39.361Z] [INFO] Generated Email: tiktokjalcu0d2@airsworld.net
+[2026-01-04T15:34:39.365Z] [INFO] Launching browser with CDP mode (enhanced stealth)...
+[2026-01-04T15:34:40.395Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:35:03.159Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:35:06.168Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:35:06.168Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:35:07.281Z] [SUCCESS] ✅ Selected month: 03
+[2026-01-04T15:35:08.330Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T15:35:09.457Z] [SUCCESS] ✅ Selected day: 11
+[2026-01-04T15:35:10.591Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T15:35:11.396Z] [SUCCESS] ✅ Selected year: 2005
+[2026-01-04T15:35:11.396Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T15:35:13.317Z] [INFO] Filling email address...
+[2026-01-04T15:35:18.073Z] [SUCCESS] Entered email: tiktokjalcu0d2@airsworld.net
+[2026-01-04T15:35:19.718Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:35:20.929Z] [INFO] Filling password...
+[2026-01-04T15:35:24.576Z] [SUCCESS] Entered password
+[2026-01-04T15:35:26.714Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-04T15:35:27.751Z] [WARNING] Send code button might be disabled
+[2026-01-04T15:35:28.395Z] [SUCCESS] ✅ Clicked "Send code" button
+[2026-01-04T15:35:29.560Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-04T15:50:25.683Z] [INFO] Processing new job
+{
+  "accountId": 19,
+  "batchId": 3,
+  "jobId": "19"
+}
+[2026-01-04T15:50:25.684Z] [INFO] Starting account creation for Account ID: 19 (Attempt 1/3)
+[2026-01-04T15:50:27.752Z] [INFO] Generated Email: tiktokw523tvr7@airsworld.net
+[2026-01-04T15:50:27.756Z] [INFO] Launching browser with STEALTH MODE (playwright-extra)...
+[2026-01-04T15:50:28.985Z] [INFO] Navigating to https://www.tiktok.com/signup/phone-or-email/email...
+[2026-01-04T15:50:55.684Z] [ERROR] Job 18 failed
+{
+  "error": "job stalled more than allowable limit"
+}
+[2026-01-04T15:50:58.747Z] [INFO] On signup page - AUTOMATED FLOW STARTED
+[2026-01-04T15:51:00.761Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T15:51:00.761Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T15:51:02.024Z] [SUCCESS] ✅ Selected month: 03
+[2026-01-04T15:51:03.650Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T15:51:04.678Z] [SUCCESS] ✅ Selected day: 08
+[2026-01-04T15:51:05.947Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T15:51:06.846Z] [SUCCESS] ✅ Selected year: 2001
+[2026-01-04T15:51:06.846Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T15:51:08.306Z] [INFO] Filling email address...
+[2026-01-04T15:51:12.660Z] [SUCCESS] Entered email: tiktokw523tvr7@airsworld.net
+[2026-01-04T15:51:15.447Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T15:51:17.028Z] [INFO] Filling password...
+[2026-01-04T15:51:20.187Z] [SUCCESS] Entered password
+[2026-01-04T15:51:22.275Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-04T15:51:24.283Z] [WARNING] Send code button might be disabled
+[2026-01-04T15:51:25.074Z] [SUCCESS] ✅ Clicked "Send code" button
+[2026-01-04T15:51:26.450Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
+[2026-01-04T16:51:39.073Z] [INFO] Processing new job
+{
+  "accountId": 20,
+  "batchId": 3,
+  "jobId": "20"
+}
+[2026-01-04T16:51:39.074Z] [INFO] Starting account creation for Account ID: 20 (Attempt 1/3)
+[2026-01-04T16:51:40.883Z] [INFO] Generated Email: tiktokm25p3rvv@airsworld.net
+[2026-01-04T16:51:40.886Z] [INFO] 🚀 Launching SeleniumBase via Python Bridge...
+[2026-01-04T16:51:40.887Z] [INFO] Starting Python Browser Launcher: /Users/mac/Desktop/My Work/Tiktok_account_automation/bot/src/utils/browserLauncher.py
+[2026-01-04T16:51:43.269Z] [INFO] ✅ Connected to CDP Endpoint: http://127.0.0.1:56853
+[2026-01-04T16:51:43.690Z] [INFO] Attached to existing page
+[2026-01-04T16:51:43.691Z] [INFO] On signup page - HYBRID FLOW STARTED
+[2026-01-04T16:51:47.679Z] [INFO] 🎂 Filling date of birth...
+[2026-01-04T16:51:47.680Z] [INFO] Step 1: Opening Month dropdown...
+[2026-01-04T16:51:49.153Z] [SUCCESS] ✅ Selected month: 07
+[2026-01-04T16:51:50.427Z] [INFO] Step 2: Opening Day dropdown...
+[2026-01-04T16:51:51.685Z] [SUCCESS] ✅ Selected day: 21
+[2026-01-04T16:51:52.877Z] [INFO] Step 3: Opening Year dropdown...
+[2026-01-04T16:51:53.717Z] [SUCCESS] ✅ Selected year: 1994
+[2026-01-04T16:51:53.718Z] [SUCCESS] 🎂 Date of birth selection completed!
+[2026-01-04T16:51:54.829Z] [INFO] Filling email address...
+[2026-01-04T16:51:59.263Z] [SUCCESS] Entered email: tiktokm25p3rvv@airsworld.net
+[2026-01-04T16:52:01.422Z] [INFO] Clicking outside to close email suggestions...
+[2026-01-04T16:52:03.229Z] [INFO] Filling password...
+[2026-01-04T16:52:06.124Z] [SUCCESS] Entered password
+[2026-01-04T16:52:08.882Z] [INFO] Thinking: Clicking "Send code" button...
+[2026-01-04T16:52:10.489Z] [WARNING] Send code button might be disabled
+[2026-01-04T16:52:11.111Z] [SUCCESS] ✅ Clicked "Send code" button
+[2026-01-04T16:52:12.541Z] [INFO] ⏳ Waiting for OTP in mail.tm inbox (Do not close browser)...
