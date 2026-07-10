@@ -1,43 +1,97 @@
 # TikTok Account Creation Automation System
 
-Automated TikTok account creation system with web dashboard for batch processing and real-time tracking.
+> **⚠️ Disclaimer**
+>
+> This repository is shared for **educational, research, and portfolio purposes only**. It demonstrates browser automation, queue management, and software engineering concepts. Any use of this project must comply with applicable laws, platform Terms of Service, and ethical guidelines. The author is not responsible for misuse of this code.
 
-## 🚀 Features
+---
 
-- **Web Dashboard**: User-friendly interface for account creation and tracking
-- **Batch Processing**: Create 10, 20, 50, 100, or custom number of accounts
-- **Real-time Progress**: Live updates during account creation
-- **Smart Bot**: Human-like behavior with proxy rotation and CAPTCHA solving
-- **Account Management**: Track all created accounts with detailed status
-- **Export Data**: Download account details as CSV
+## 📖 Overview
 
-## 📁 Project Structure
+The TikTok Account Creation Automation System is a full-stack automation platform designed to streamline large-scale account creation through an intuitive web dashboard. It combines browser automation, proxy rotation, CAPTCHA solving, queue management, and real-time monitoring into a single workflow.
 
+---
+
+## ✨ Features
+
+- 🌐 Modern React dashboard
+- 👤 User authentication
+- 📦 Batch account creation
+- 📊 Real-time progress tracking
+- 🤖 Human-like browser automation
+- 🔄 Automatic proxy rotation
+- 🛡 CAPTCHA solving integration
+- 📧 Temporary email verification
+- 📄 CSV export
+- 📈 Batch history and monitoring
+- ⚡ Queue-based processing
+- 🔁 Automatic retry mechanism
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- SQLite
+
+### Automation
+
+- Playwright
+- Playwright Stealth
+
+### Queue
+
+- Redis
+- Bull Queue
+
+### Third-Party Services
+
+- CapSolver
+- 1SecMail
+
+---
+
+## 📂 Project Structure
+
+```text
+├── frontend/
+│   ├── src/
+│   └── public/
+│
+├── backend/
+│   ├── routes/
+│   ├── database/
+│   └── services/
+│
+├── bot/
+│   ├── workers/
+│   ├── browser/
+│   └── automation/
+│
+├── shared/
+└── README.md
 ```
-├── backend/          # Express.js API + SQLite database
-├── bot/              # Playwright automation worker
-├── frontend/         # React dashboard
-└── shared/           # Shared utilities
-```
 
-## 🛠️ Tech Stack
-
-- **Frontend**: React + Vite + TailwindCSS
-- **Backend**: Express.js + SQLite + Bull Queue
-- **Bot**: Playwright (Node.js) + Stealth plugins
-- **Queue**: Redis + Bull
-- **APIs**: 1secmail (temp email), CapSolver (CAPTCHA)
-
-## 📋 Prerequisites
-
-- Node.js 18+ 
-- Redis server
-- CapSolver API key
-- Residential proxy service (BrightData/Smartproxy)
+---
 
 ## ⚙️ Installation
 
-### 1. Install Dependencies
+Clone the repository
+
+```bash
+git clone https://github.com/farooq977/TikTok-Account-Creation-Automation.git
+```
+
+Install dependencies
 
 ```bash
 # Backend
@@ -53,112 +107,100 @@ cd ../frontend
 npm install
 ```
 
-### 2. Configure Environment Variables
-
-Copy `.env.example` to `.env` in both `backend/` and `bot/` directories and fill in your API keys:
-
-**bot/.env:**
-```
-CAPSOLVER_API_KEY=your-capsolver-api-key
-PROXY_USERNAME=your-proxy-username
-PROXY_PASSWORD=your-proxy-password
-PROXY_SERVER=your-proxy-server.com
-```
-
-### 3. Install Playwright Browsers
+Install Playwright browsers
 
 ```bash
 cd bot
 npx playwright install chromium
 ```
 
-### 4. Start Redis Server
+---
 
-```bash
-redis-server
-```
+## ▶️ Running the Application
 
-## 🚀 Running the Application
+### Backend
 
-Open 3 separate terminals:
-
-### Terminal 1 - Backend API
 ```bash
 cd backend
 npm run dev
 ```
-Backend will run on `http://localhost:5000`
 
-### Terminal 2 - Bot Worker
+### Bot Worker
+
 ```bash
 cd bot
 npm run dev
 ```
 
-### Terminal 3 - Frontend Dashboard
+### Frontend
+
 ```bash
 cd frontend
 npm run dev
 ```
-Dashboard will open on `http://localhost:5173`
 
-## 📖 Usage
+---
 
-1. Open dashboard at `http://localhost:5173`
-2. Register a new user account
-3. Login with your credentials
-4. Select batch size (10, 20, 50, 100, or custom)
-5. Click "Create Accounts" button
-6. Watch real-time progress
-7. View created accounts in the table
-8. Export results to CSV
+## 🚀 Workflow
 
-## ⚠️ Important Notes
+1. Login to the dashboard.
+2. Create a new batch.
+3. Select the number of accounts.
+4. Start the automation process.
+5. Browser automation launches.
+6. CAPTCHA is solved automatically.
+7. Temporary email verification is completed.
+8. Account information is saved.
+9. Export results as CSV.
 
-- **Rate Limiting**: Bot creates accounts with 5-10 minute delays to avoid detection
-- **Success Rate**: Depends on TikTok's anti-bot measures, proxies quality, and CAPTCHA solver
-- **Legal Warning**: Automated account creation violates TikTok's Terms of Service
+---
+
+## 📊 Dashboard Features
+
+- User authentication
+- Batch management
+- Progress monitoring
+- Queue management
+- Account tracking
+- CSV export
+- Real-time updates
+
+---
 
 ## 🔧 Configuration
 
-Edit `bot/.env` to adjust:
-- `MIN_DELAY_BETWEEN_ACCOUNTS`: Minimum delay (default: 5 min)
-- `MAX_DELAY_BETWEEN_ACCOUNTS`: Maximum delay (default: 10 min)
-- `MAX_RETRIES`: Retry attempts per account (default: 3)
+Configure the following services using environment variables:
 
-## 📊 Database Schema
+- Redis
+- CapSolver API
+- Residential Proxy Provider
+- Temporary Email Provider
 
-- **users**: Dashboard users
-- **batches**: Batch requests with status
-- **accounts**: Created TikTok accounts with details
+---
 
-## 🐛 Troubleshooting
+## 💼 Use Cases
 
-**Redis Connection Error:**
-```bash
-# Make sure Redis is running
-redis-server
-```
+- Browser automation research
+- Queue management systems
+- Playwright automation
+- Workflow automation
+- Dashboard development
+- Educational demonstrations
 
-**Playwright Browser Error:**
-```bash
-# Reinstall browsers
-cd bot
-npx playwright install --force
-```
+---
 
-**CAPTCHA Not Solving:**
-- Check CapSolver API balance
-- Verify API key in `bot/.env`
+## 🔮 Future Improvements
 
-**Proxy Errors:**
-- Verify proxy credentials
-- Test proxy connection manually
+- Multi-browser support
+- Docker deployment
+- PostgreSQL support
+- Multi-user roles
+- Analytics dashboard
+- REST API
+- Email notifications
 
-## 📝 License
+---
 
-MIT License - For educational purposes only
+## 📄 License
 
-## ⚠️ Disclaimer
-
-This tool is for educational and testing purposes only. Automated account creation violates TikTok's Terms of Service and may result in IP bans or legal consequences. Use at your own risk.
+This project is shared for **educational, research, and portfolio purposes only**. Unauthorized commercial redistribution or misuse is discouraged. Users are responsible for complying with applicable laws and the Terms of Service of any third-party platforms they interact with.
