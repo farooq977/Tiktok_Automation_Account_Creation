@@ -1,10 +1,6 @@
 # TikTok Account Creation Automation System
 
-> **⚠️ Disclaimer**
->
-> This repository is shared for **educational, research, and portfolio purposes only**. It demonstrates browser automation, queue management, and software engineering concepts. Any use of this project must comply with applicable laws, platform Terms of Service, and ethical guidelines. The author is not responsible for misuse of this code.
 
----
 
 ## 📖 Overview
 
@@ -198,6 +194,12 @@ Configure the following services using environment variables:
 - Analytics dashboard
 - REST API
 - Email notifications
+
+---
+
+> **⚠️ Disclaimer**
+>
+> This repository is shared for **educational, research, and portfolio purposes only**. It demonstrates browser automation, queue management, and software engineering concepts. Any use of this project must comply with applicable laws, platform Terms of Service, and ethical guidelines. The author is not responsible for misuse of this code.
 
 ---
 
